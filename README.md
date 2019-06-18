@@ -1,2 +1,2 @@
 # fish-bubbles
-Digispark scripts of mine.
+Misc. projects of mine that are too small/insignificant to warrant their own repo.
